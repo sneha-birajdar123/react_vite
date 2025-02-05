@@ -1,0 +1,60 @@
+1. create a new repo of your project name.
+2. git clone ssh-url.
+3. cd repoName.
+4. npm create vite@latest.
+// vite is blunder tool for react setup
+// vite is faster than CRA.
+// react is a library for Building UI components.
+// react deals with Virtual DOM.
+
+5. enter project name as client
+6. select react and next javascript.
+7. cd client
+8. npm install
+9. npm run dev.
+
+// by default CRA it takes 3000 port number
+//but vite uses 5173 port number.
+
+10. delete eslint.config.js.
+11. remove strict mode from main.jsx also remove the  import of it.
+12. clear index.css and app.css
+13. clear app.js and add rafce hello world
+
+
+14. open index.html and change title.
+15. open index.html add meta tags og tags and favicon
+16. jsx = javascript xml
+
+17. FLOW OF REACT: 
+- App.js ===> hello world ==> export --> main.jsx
+- amd from main.jsx ---> index.html
+
+18. why REACT why not HTML? 
+
+- HTML uses javascript DOM.
+- changing an single element or button takes whole page to reaload from start.
+
+. But in React it uses something called Virtual DOM.
+. it will clone the original DOM and makes a copy of DOM called virtual DOM.
+
+Now react has 2 DOM
+1. Original DOM
+2. virtual DOM
+
+. React compares the changed element and it will only render that component.
+
+. virtual DOM only changes or render the component which is changed recently from original DOM.
+
+
+
+HOOKS: 
+
+. hooks are the special types of functions in react.
+
+1. useState :
+
+. Why useState?
+dynamic variables should be use with useState.
+
+. How to use useState?
